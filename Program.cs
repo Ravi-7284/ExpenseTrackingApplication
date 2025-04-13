@@ -33,7 +33,7 @@ namespace ExpenseTrackingApplication
                 db.Database.Migrate();
             }
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
